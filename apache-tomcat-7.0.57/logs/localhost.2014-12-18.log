@@ -1,0 +1,423 @@
+12 18, 2014 11:31:17 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:31:17 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:31:17 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3d77f01d')
+12 18, 2014 11:41:29 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:41:29 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:43:55 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:43:56 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:43:56 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:43:56 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5427eb13')
+12 18, 2014 11:44:26 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:44:26 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:45:49 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:45:50 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:45:50 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:45:50 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@18eea87e')
+12 18, 2014 11:47:22 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:47:22 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:47:59 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:48:00 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:48:00 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:48:00 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@16391170')
+12 18, 2014 11:49:36 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:49:36 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:52:52 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:52:52 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:52:52 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:52:52 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4b3669e1')
+12 18, 2014 11:54:11 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:54:11 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:55:57 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:55:57 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:55:57 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:55:57 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1cda50e6')
+12 18, 2014 11:57:44 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:57:44 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:57:52 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:57:53 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:57:53 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:57:53 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2f28849')
+12 18, 2014 11:58:52 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:58:52 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 11:58:59 午前 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 11:58:59 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 11:58:59 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 11:58:59 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7153a0b6')
+12 18, 2014 11:59:36 午前 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 11:59:36 午前 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 12:00:05 午後 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 12:00:06 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 12:00:06 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 12:00:06 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7baaa1bf')
+12 18, 2014 12:00:13 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 12:00:13 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 12:00:34 午後 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 12:00:35 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 12:00:35 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 12:00:35 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2b1038df')
+12 18, 2014 12:01:39 午後 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 12:01:40 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 12:01:40 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 12:01:40 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7ec3c727')
+12 18, 2014 12:01:40 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 12:01:40 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 12:01:46 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 12:01:46 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 12:02:17 午後 org.apache.catalina.core.StandardContext filterStart
+重大: フィルタ SolrRequestFilter の起動中の例外です
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:379)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:116)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4830)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5510)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+12 18, 2014 12:02:17 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 12:02:17 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 12:02:17 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7b94225d')
+12 18, 2014 12:04:09 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextDestroyed()
+12 18, 2014 12:04:09 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextDestroyed()
+12 18, 2014 12:04:24 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: contextInitialized()
+12 18, 2014 12:04:24 午後 org.apache.catalina.core.ApplicationContext log
+情報: SessionListener: contextInitialized()
+12 18, 2014 12:04:24 午後 org.apache.catalina.core.ApplicationContext log
+情報: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6fbaefd6')
