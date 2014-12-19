@@ -15,11 +15,11 @@ Quick Start
 Configuration
 -----
 - Change Port by editing `$TOMCAT_DIR/conf/server.xml`:
-  ```xml
+```xml
     <Connector port="8088" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="8443" />
-  ```
+```
 
 References:
 -----
